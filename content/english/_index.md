@@ -8,16 +8,16 @@ banner:
   content: "We believe it’s time for the Kubernetes scheduler to be as smart as you."
   button:
     enable: true
-    label: "Discover Our Project"
+    label: "Find out more"
     link: "https://github.com/schednex-ai/schednex.git"
 
 ############################# About #################################
 about:
-  enable: false
-  title: "About Us"
-  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
-  image: "images/wrapper-img.png"
+  enable: true
+  title: "Why Schednex?"
+  description: ""
+  content: "We believe that smart scheduling enables point in time reaction to dynamic changes in a Kubernetes environment. Using K8sGPT analyzers and cluster telemetry, Schednex reacts to changes, makes decisions and directs placement for your pods."
+  image: "images/logo-large.png"
 
 
 ######################### Portfolio ###############################
@@ -47,12 +47,13 @@ service:
 
 ############################ call to action ###########################
 cta:
-  enable: false
-  bg_image: "images/call-to-action-bg.jpg"
-  title: "We design delightful digital experiences."
-  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  enable: true
+  bg_image: "images/design.png"
+  title: "Built by the open source community for you."
+  content: "Schednex is a fully transparent, community owned project. 
+  Our maintainers have decades of experience growing sustainable enclaves of open source contributors, and working with companies who want to use their projects."
   button:
-    enable: true
+    enable: false
     label: "Tell Us Your Story"
     link: "contact/"
 
