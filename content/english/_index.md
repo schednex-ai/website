@@ -13,7 +13,7 @@ banner:
 
 ############################# About #################################
 about:
-  enable: true
+  enable: false
   title: "Why Schednex?"
   description: ""
   content: "We believe that smart scheduling enables point in time reaction to dynamic changes in a Kubernetes environment. Using K8sGPT analyzers and cluster telemetry, Schednex reacts to changes, makes decisions and directs placement for your pods."
@@ -47,7 +47,7 @@ service:
 
 ############################ call to action ###########################
 cta:
-  enable: true
+  enable: false
   bg_image: "images/design.png"
   title: "Built by the open source community for you."
   content: "Schednex is a fully transparent, community owned project. 
